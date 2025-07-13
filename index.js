@@ -6,15 +6,22 @@
 
 // 1. declaration let x;
 // 2. assignement x = 100;
-let x;
-x = 123;
+// let age = 25;
+// let price = 10.99;
+// let gpa = 2.1;
 
-console.log(x); // 123
 
-if (document.getElementById("myh1").textContent == `Hello`){
-    document.getElementById("myh1").textContent = `Hello World`;
-}else{
-    document.getElementById("myh1").textContent = `World`;
-}
+// let firstName = "Bro";
 
+// console.log(typeof firstName);
+
+
+let fullName = "Bro Code";
+let age = 25;
+let student = false;
+
+
+document.getElementById("p1").textContent = fullName;
+document.getElementById("p2").textContent = age;
+document.getElementById("p3").textContent = student;
 
