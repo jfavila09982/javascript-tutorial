@@ -1,14 +1,12 @@
 
+const PI = 3.14159;
+let radius;
+let circumference;
 
-let x;
-let y;
-let z;
+// PI = 420.69;  //will cause an error because PI is a constant
+radius = window.prompt('Entrer the radius of the circle:');
+radius = Number(radius);
 
-x = Number(x);
-y = String(y);
-z = Boolean(z);
+circumference = 2 * pi * radius;
 
-
-console.log(x, typeof x);
-console.log(y, typeof y);
-console.log(z, typeof z);
+console.log('The circumference of the circle is: ' + circumference);
