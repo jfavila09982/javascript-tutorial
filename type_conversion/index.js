@@ -3,10 +3,14 @@ const PI = 3.14159;
 let radius;
 let circumference;
 
-// PI = 420.69;  //will cause an error because PI is a constant
-radius = window.prompt('Entrer the radius of the circle:');
-radius = Number(radius);
+PI = 420.69; // This line will throw an error because PI is a constant and cannot be reassigned.
 
-circumference = 2 * pi * radius;
+document.getElementById('mySubmit').onclick = function(){
+    radius = document.getElementById('myText').value;
+    radius = Number(radius);
+    circumference = 2 * PI * radius;
+    document.getElementById("myH3").textContent = "Circumference: " + circumference;
+   
+}
 
-console.log('The circumference of the circle is: ' + circumference);
+
