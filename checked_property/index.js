@@ -12,8 +12,24 @@ mySubmit.onclick = function() {
 
     if(myCheckBox.checked) {
         subResult.textContent = "You have subscribed to our newsletter.";
-        console.log(subResult.textContent);
+       
     }
-    subResult.textContent = "You have not subscribed to our newsletter.";
+    else{
+        subResult.textContent = "You have not subscribed";
+    }
+
+    if(visaBtn.checked){
+        paymentResult.textContent = "You are paying with Visa.";
+     
+    }
+    else if(mastercardBtn.checked){
+        paymentResult.textContent = "You are paying with Mastercard.";
+    }
+
+    else if(paypalBtn.checked){
+        paymentResult.textContent = "You are paying with PayPal.";
+    }
+  
+  
 
 }
