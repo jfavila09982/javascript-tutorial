@@ -58,5 +58,24 @@
 // With HTML 
 
 
-const myCheckBox = document.getElementById("inputGradesMath");
-const visaBtn = document.getElementById("visaBtn");
+
+
+
+
+const inputGradesMath = document.getElementById("inputGradesMath");
+const mathGradesResult = document.getElementById("mathGrades");
+const inputGradesScienceResult = document.getElementById("inputGradesScience");
+const scienceGradesResult = document.getElementById("scienceGrades");
+
+
+let passingScore = 60;
+let marks;
+
+submitBtn.onclick = function() {
+
+    mathScore = inputGradesMath.value;
+    scienceScore = inputGradesMath.value;
+    //mathGradesResult.textContent = inputGradesMath.value;
+    
+
+}
